@@ -18,6 +18,7 @@ imageDatas = (function genImageURL(imageDatasArr){
         singleImageData.imageURL = require("../images/" + singleImageData.fileName);
 
         imageDatasArr[i] = singleImageData;
+		console.log("222");
     }
     return imageDatasArr;
 })(imageDatas);
